@@ -11,6 +11,7 @@ Chancelog im Discord
 Sperrt alle Aenderungen auf Server fuer CBA Settings. Aenderungen die auf dem Server passieren, sind nur Temporaer.
 
 */
+
 // A3TI
 force force A3TI_ACE_JAVELIN = false;
 force force A3TI_ALLOW_TANK_DRIVER = false;
