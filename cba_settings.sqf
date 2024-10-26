@@ -798,8 +798,8 @@ force force ace_nametags_tagSize = 1;
 force force ace_nightvision_aimDownSightsBlur = 0.1;
 force force ace_nightvision_disableNVGsWithSights = false;
 force force ace_nightvision_effectScaling = 0.2;
-force force ace_nightvision_fogScaling = 0.2;
-force force ace_nightvision_noiseScaling = 0.3;
+force force ace_nightvision_fogScaling = 0.3;
+force force ace_nightvision_noiseScaling = 0.2;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -1479,7 +1479,7 @@ force force kat_gui_ColoredLogs = true;
 force force kat_gui_showPatientSideLabels = true;
 
 // KAT - ADV Medical: Hypothermia
-force force kat_hypothermia_hypothermiaActive = false;
+force force kat_hypothermia_hypothermiaActive = true;
 
 // KAT - ADV Medical: Misc
 kat_misc_AFAK_Container = 3;
