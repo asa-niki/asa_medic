@@ -4,7 +4,7 @@ CBA Einstellungen
 
 Zustaendigkeit OCTI / NIKI
 
-Letzte Aktualisierung Github - 23.10.2024 - 19:17
+Letzte Aktualisierung Github - 30.10.2024 - 12:47
 Letzte Aktualisierung Server - 23.10.2024 - 19:17
 Chancelog im Discord
 
@@ -797,9 +797,9 @@ force force ace_nametags_tagSize = 1;
 // ACE Nightvision
 force force ace_nightvision_aimDownSightsBlur = 0.1;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.2;
-force force ace_nightvision_fogScaling = 0.3;
-force force ace_nightvision_noiseScaling = 0.2;
+force force ace_nightvision_effectScaling = 0.1;
+force force ace_nightvision_fogScaling = 0;
+force force ace_nightvision_noiseScaling = 0.1;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -1479,7 +1479,7 @@ force force kat_gui_ColoredLogs = true;
 force force kat_gui_showPatientSideLabels = true;
 
 // KAT - ADV Medical: Hypothermia
-force force kat_hypothermia_hypothermiaActive = true;
+force force kat_hypothermia_hypothermiaActive = false;
 
 // KAT - ADV Medical: Misc
 kat_misc_AFAK_Container = 3;
