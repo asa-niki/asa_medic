@@ -38,7 +38,7 @@ force force ace_advanced_fatigue_fadeStaminaBar = true;
 force force ace_advanced_fatigue_loadFactor = 0.8;
 force force ace_advanced_fatigue_performanceFactor = 1;
 force force ace_advanced_fatigue_recoveryFactor = 3;
-force force ace_advanced_fatigue_terrainGradientFactor = 1;
+force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
 
 // ACE Advanced Throwing
 force force ace_advanced_throwing_enabled = true;
@@ -101,7 +101,7 @@ force force ace_common_progressBarInfo = 2;
 force force ace_common_restedSwayFactor = 1;
 force force ace_common_settingFeedbackIcons = 1;
 force force ace_common_settingProgressBarLocation = 0;
-force force ace_common_swayFactor = 1;
+force force ace_common_swayFactor = 0.7;
 
 // ACE Cook-off
 force force ace_cookoff_ammoCookoffDuration = 0.853711;
@@ -1654,7 +1654,7 @@ force force kat_surgery_ultrasoundTime = 5;
 
 // KAT - ADV Medical: Vitals
 force force kat_vitals_enableFluidShift = true;
-force force kat_vitals_enableSimpleMedical = false;
+force force kat_vitals_enableSimpleMedical = true;
 
 // KAT - ADV Medical: Watch
 force force kat_watch_altitudeUnit = 0;
