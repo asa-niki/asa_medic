@@ -4,7 +4,7 @@ CBA Einstellungen
 
 Zustaendigkeit OCTI / NIKI
 
-Letzte Aktualisierung Github - 10.11.2024 - 14:50
+Letzte Aktualisierung Github - 10.11.2024 - 17:55
 Letzte Aktualisierung Server - 10.11.2024 - 01:41
 Chancelog im Discord
 
