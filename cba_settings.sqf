@@ -5,7 +5,7 @@ CBA Einstellungen
 Zustaendigkeit OCTI / NIKI
 
 Letzte Aktualisierung Github - 10.11.2024 - 17:55
-Letzte Aktualisierung Server - 10.11.2024 - 01:41
+Letzte Aktualisierung Server - 15.11.2024 - 19:25
 Chancelog im Discord
 
 Sperrt alle Aenderungen auf Server fuer CBA Settings. Aenderungen die auf dem Server passieren, sind nur Temporaer.
