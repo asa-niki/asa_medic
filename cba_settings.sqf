@@ -1,15 +1,15 @@
 /*
-
-CBA Einstellungen
-
-Zustaendigkeit OCTI / NIKI
-
-Letzte Aktualisierung Github - 10.11.2024 - 17:55
-Letzte Aktualisierung Server - 15.11.2024 - 19:25
-Chancelog im Discord
-
-Sperrt alle Aenderungen auf Server fuer CBA Settings. Aenderungen die auf dem Server passieren, sind nur Temporaer.
-
+	
+	CBA Einstellungen
+	
+	Zustaendigkeit OCTI / NIKI
+	
+	Letzte Aktualisierung Github - 10.11.2024 - 17:55
+	Letzte Aktualisierung Server - 15.11.2024 - 19:25
+	Chancelog im Discord
+	
+	Sperrt alle Aenderungen auf Server fuer CBA Settings. Aenderungen die auf dem Server passieren, sind nur Temporaer.
+	
 */
 
 // A3TI
@@ -48,7 +48,7 @@ force force ace_advanced_throwing_enableTempWindInfo = true;
 force force ace_advanced_throwing_showMouseControls = true;
 force force ace_advanced_throwing_showThrowArc = true;
 
-// ACE Advanced Vehicle Damage
+// ACE Advanced vehicle damage
 force force ace_vehicle_damage_enableCarDamage = false;
 force force ace_vehicle_damage_enabled = false;
 
@@ -63,7 +63,7 @@ ace_arsenal_defaultToFavorites = false;
 force force ace_arsenal_enableIdentityTabs = true;
 force force ace_arsenal_enableModIcons = true;
 force force ace_arsenal_EnableRPTLog = true;
-ace_arsenal_favoritesColor = [0.9,0.875,0.6];
+ace_arsenal_favoritesColor = [0.9, 0.875, 0.6];
 force force ace_arsenal_fontHeight = 5.5;
 force force ace_arsenal_loadoutsSaveFace = true;
 force force ace_arsenal_loadoutsSaveInsignia = true;
@@ -92,8 +92,8 @@ force force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
-force force ace_common_displayTextColor = [0,0,0,0.1];
-force force ace_common_displayTextFontColor = [1,1,1,1];
+force force ace_common_displayTextColor = [0, 0, 0, 0.1];
+force force ace_common_displayTextFontColor = [1, 1, 1, 1];
 force force ace_common_enableSway = true;
 ace_common_epilepsyFriendlyMode = false;
 force force ace_common_progressBarInfo = 2;
@@ -113,7 +113,7 @@ force force ace_cookoff_enableFire = true;
 force force ace_cookoff_probabilityCoef = 0.8;
 force ace_cookoff_removeAmmoDuringCookoff = true;
 
-// ACE Crew Served Weapons
+// ACE crew Served weapons
 force force ace_csw_ammoHandling = 1;
 force force ace_csw_defaultAssemblyMode = false;
 force force ace_csw_dragAfterDeploy = false;
@@ -148,7 +148,7 @@ force force acex_field_rations_timeWithoutFood = 3;
 force force acex_field_rations_timeWithoutWater = 2;
 force force acex_field_rations_waterSourceActions = 2;
 
-// ACE Fire
+// ACE fire
 force force ace_fire_dropWeapon = 1;
 force force ace_fire_enabled = true;
 force force ace_fire_enableFlare = true;
@@ -170,7 +170,7 @@ force ace_frag_spallIntensity = 1;
 force force ace_gforces_coef = 0.5;
 force force ace_gforces_enabledFor = 1;
 
-// ACE Goggles
+// ACE goggles
 force force ace_goggles_effects = 3;
 force force ace_goggles_showClearGlasses = true;
 force force ace_goggles_showInThirdPerson = false;
@@ -211,17 +211,17 @@ force force ace_interact_menu_actionOnKeyRelease = true;
 force force ace_interact_menu_addBuildingActions = false;
 force force ace_interact_menu_alwaysUseCursorInteraction = false;
 force force ace_interact_menu_alwaysUseCursorSelfInteraction = true;
-force force ace_interact_menu_colorShadowMax = [0,0,0,1];
-force force ace_interact_menu_colorShadowMin = [0,0,0,0.25];
-force force ace_interact_menu_colorTextMax = [1,1,1,1];
-force force ace_interact_menu_colorTextMin = [1,1,1,0.25];
+force force ace_interact_menu_colorShadowMax = [0, 0, 0, 1];
+force force ace_interact_menu_colorShadowMin = [0, 0, 0, 0.25];
+force force ace_interact_menu_colorTextMax = [1, 1, 1, 1];
+force force ace_interact_menu_colorTextMin = [1, 1, 1, 0.25];
 force force ace_interact_menu_consolidateSingleChild = false;
 force force ace_interact_menu_cursorKeepCentered = false;
 force force ace_interact_menu_cursorKeepCenteredSelfInteraction = false;
 force force ace_interact_menu_menuAnimationSpeed = 0;
 force force ace_interact_menu_menuBackground = 0;
 force force ace_interact_menu_menuBackgroundSelf = 0;
-force force ace_interact_menu_selectorColor = [1,0,0];
+force force ace_interact_menu_selectorColor = [1, 0, 0];
 force force ace_interact_menu_shadowSetting = 2;
 force force ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = true;
@@ -267,7 +267,7 @@ ace_interact_menu_more__Medical = false;
 ace_interact_menu_more__mts_cords_cordAction = false;
 ace_interact_menu_more__SSS_main = false;
 
-// ACE Interaction Menu (Self) - Move to Root
+// ACE Interaction Menu (Self) - move to Root
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_atragmx_open = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_attach_Attach = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_attach_Detach = false;
@@ -651,13 +651,13 @@ force force ace_markers_timestampUTCOffset = 0;
 force force ace_map_gestures_allowCurator = true;
 force force ace_map_gestures_allowSpectator = true;
 force force ace_map_gestures_briefingMode = 0;
-force force ace_map_gestures_defaultColor = [1,0.88,0,0.7];
-force force ace_map_gestures_defaultLeadColor = [1,0,0,0.95];
+force force ace_map_gestures_defaultColor = [1, 0.88, 0, 0.7];
+force force ace_map_gestures_defaultLeadColor = [1, 0, 0, 0.95];
 force force ace_map_gestures_enabled = true;
 force force ace_map_gestures_interval = 0.03;
 force force ace_map_gestures_maxRange = 7;
 force force ace_map_gestures_maxRangeCamera = 14;
-force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
+force force ace_map_gestures_nameTextColor = [0.2, 0.2, 0.2, 0.3];
 force force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
@@ -741,27 +741,27 @@ force force ace_medical_vitals_simulateSpO2 = true;
 force force ace_medical_feedback_bloodVolumeEffectType = 0;
 force force ace_medical_feedback_enableHUDIndicators = true;
 force force ace_medical_feedback_painEffectType = 2;
-force force ace_medical_gui_bloodLossColor_0 = [1,1,1,1];
-force force ace_medical_gui_bloodLossColor_1 = [1,0.95,0.64,1];
-force force ace_medical_gui_bloodLossColor_2 = [1,0.87,0.46,1];
-force force ace_medical_gui_bloodLossColor_3 = [1,0.8,0.33,1];
-force force ace_medical_gui_bloodLossColor_4 = [1,0.72,0.24,1];
-force force ace_medical_gui_bloodLossColor_5 = [1,0.63,0.15,1];
-force force ace_medical_gui_bloodLossColor_6 = [1,0.54,0.08,1];
-force force ace_medical_gui_bloodLossColor_7 = [1,0.43,0.02,1];
-force force ace_medical_gui_bloodLossColor_8 = [1,0.3,0,1];
-force force ace_medical_gui_bloodLossColor_9 = [1,0,0,1];
-force force ace_medical_gui_bodyPartOutlineColor = [1,1,1,1];
-force force ace_medical_gui_damageColor_0 = [1,1,1,1];
-force force ace_medical_gui_damageColor_1 = [0.75,0.95,1,1];
-force force ace_medical_gui_damageColor_2 = [0.62,0.86,1,1];
-force force ace_medical_gui_damageColor_3 = [0.54,0.77,1,1];
-force force ace_medical_gui_damageColor_4 = [0.48,0.67,1,1];
-force force ace_medical_gui_damageColor_5 = [0.42,0.57,1,1];
-force force ace_medical_gui_damageColor_6 = [0.37,0.47,1,1];
-force force ace_medical_gui_damageColor_7 = [0.31,0.36,1,1];
-force force ace_medical_gui_damageColor_8 = [0.22,0.23,1,1];
-force force ace_medical_gui_damageColor_9 = [0,0,1,1];
+force force ace_medical_gui_bloodLossColor_0 = [1, 1, 1, 1];
+force force ace_medical_gui_bloodLossColor_1 = [1, 0.95, 0.64, 1];
+force force ace_medical_gui_bloodLossColor_2 = [1, 0.87, 0.46, 1];
+force force ace_medical_gui_bloodLossColor_3 = [1, 0.8, 0.33, 1];
+force force ace_medical_gui_bloodLossColor_4 = [1, 0.72, 0.24, 1];
+force force ace_medical_gui_bloodLossColor_5 = [1, 0.63, 0.15, 1];
+force force ace_medical_gui_bloodLossColor_6 = [1, 0.54, 0.08, 1];
+force force ace_medical_gui_bloodLossColor_7 = [1, 0.43, 0.02, 1];
+force force ace_medical_gui_bloodLossColor_8 = [1, 0.3, 0, 1];
+force force ace_medical_gui_bloodLossColor_9 = [1, 0, 0, 1];
+force force ace_medical_gui_bodyPartOutlineColor = [1, 1, 1, 1];
+force force ace_medical_gui_damageColor_0 = [1, 1, 1, 1];
+force force ace_medical_gui_damageColor_1 = [0.75, 0.95, 1, 1];
+force force ace_medical_gui_damageColor_2 = [0.62, 0.86, 1, 1];
+force force ace_medical_gui_damageColor_3 = [0.54, 0.77, 1, 1];
+force force ace_medical_gui_damageColor_4 = [0.48, 0.67, 1, 1];
+force force ace_medical_gui_damageColor_5 = [0.42, 0.57, 1, 1];
+force force ace_medical_gui_damageColor_6 = [0.37, 0.47, 1, 1];
+force force ace_medical_gui_damageColor_7 = [0.31, 0.36, 1, 1];
+force force ace_medical_gui_damageColor_8 = [0.22, 0.23, 1, 1];
+force force ace_medical_gui_damageColor_9 = [0, 0, 1, 1];
 force force ace_medical_gui_enableActions = 0;
 force force ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
@@ -776,14 +776,14 @@ force force ace_medical_gui_showBloodlossEntry = true;
 force force ace_medical_gui_showDamageEntry = true;
 force force ace_medical_gui_tourniquetWarning = true;
 
-// ACE Name Tags
+// ACE name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 1;
-force force ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
-force force ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
-force force ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
-force force ace_nametags_nametagColorMain = [1,1,1,1];
-force force ace_nametags_nametagColorRed = [1,0.67,0.67,1];
-force force ace_nametags_nametagColorYellow = [1,1,0.67,1];
+force force ace_nametags_defaultNametagColor = [0.77, 0.51, 0.08, 1];
+force force ace_nametags_nametagColorBlue = [0.67, 0.67, 1, 1];
+force force ace_nametags_nametagColorGreen = [0.67, 1, 0.67, 1];
+force force ace_nametags_nametagColorMain = [1, 1, 1, 1];
+force force ace_nametags_nametagColorRed = [1, 0.67, 0.67, 1];
+force force ace_nametags_nametagColorYellow = [1, 1, 0.67, 1];
 force force ace_nametags_playerNamesMaxAlpha = 1;
 force force ace_nametags_playerNamesViewDistance = 2;
 force force ace_nametags_showCursorTagForVehicles = true;
@@ -821,7 +821,7 @@ force force ace_overheating_unJamOnSwapBarrel = false;
 
 // ACE Pointing
 force force ace_finger_enabled = true;
-force force ace_finger_indicatorColor = [1,0.503034,0,1];
+force force ace_finger_indicatorColor = [1, 0.503034, 0, 1];
 force force ace_finger_indicatorForSelf = true;
 force force ace_finger_maxRange = 5.01867;
 force force ace_finger_proximityScaling = false;
@@ -858,7 +858,7 @@ force force ace_repair_locationsBoostTraining = false;
 force force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_miscRepairTime = 15;
 force force ace_repair_patchWheelEnabled = 0;
-force force ace_repair_patchWheelLocation = ["ground","vehicle"];
+force force ace_repair_patchWheelLocation = ["ground", "vehicle"];
 force force ace_repair_patchWheelMaximumRepair = 0.3;
 force force ace_repair_patchWheelRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_patchWheelTime = 5;
@@ -895,7 +895,7 @@ force force ace_spectator_maxFollowDistance = 5;
 force force ace_spectator_restrictModes = 0;
 force force ace_spectator_restrictVisions = 0;
 
-// ACE Switch Units
+// ACE switch units
 force force ace_switchunits_enableSafeZone = false;
 force force ace_switchunits_enableSwitchUnits = false;
 force force ace_switchunits_safeZoneRadius = 100;
@@ -970,19 +970,19 @@ force force ace_ui_weaponName = true;
 force force ace_ui_weaponNameBackground = true;
 force force ace_ui_zeroing = true;
 
-// ACE Vehicle Lock
+// ACE vehicle lock
 force force ace_vehiclelock_defaultLockpickStrength = 10;
 force force ace_vehiclelock_lockVehicleInventory = false;
 force force ace_vehiclelock_vehicleStartingLockState = -1;
 
-// ACE Vehicles
+// ACE vehicles
 force force ace_novehicleclanlogo_enabled = false;
 ace_vehicles_hideEjectAction = false;
 force force ace_vehicles_keepEngineRunning = true;
 force force ace_vehicles_speedLimiterStep = 5;
 force force ace_viewports_enabled = true;
 
-// ACE View Distance Limiter
+// ACE View distance Limiter
 force force ace_viewdistance_enabled = true;
 force force ace_viewdistance_limitViewDistance = 4000;
 force force ace_viewdistance_objectViewDistanceCoeff = 0;
@@ -1006,7 +1006,7 @@ force force acex_volume_reduction = 1;
 force force acex_volume_remindIfLowered = false;
 force force acex_volume_showNotification = true;
 
-// ACE Weapons
+// ACE weapons
 force force ace_common_persistentLaserEnabled = true;
 force force ace_reload_displayText = true;
 force force ace_reload_showCheckAmmoSelf = true;
@@ -1019,7 +1019,7 @@ force force ace_weather_showCheckAirTemperature = true;
 force force ace_weather_updateInterval = 60;
 force force ace_weather_windSimulation = false;
 
-// ACE Wind Deflection
+// ACE wind Deflection
 force force ace_winddeflection_enabled = true;
 force force ace_winddeflection_simulationInterval = 0.05;
 force force ace_winddeflection_vehicleEnabled = true;
@@ -1058,23 +1058,23 @@ force force acre_sys_gestures_stopADS = true;
 
 // ACRE2 UI
 force force acre_sys_godmode_rxNotification = true;
-force force acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1];
+force force acre_sys_godmode_rxNotificationColor = [0.8, 0.8, 0.8, 1];
 force force acre_sys_godmode_txNotification = true;
-force force acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1];
-force force acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1];
-force force acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]];
-force force acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
-force force acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
-force force acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
+force force acre_sys_godmode_txNotificationCurrentChatColor = [0.8, 0.8, 0.8, 1];
+force force acre_sys_godmode_txNotificationGroup1Color = [0.8, 0.8, 0.8, 1];
+force force acre_sys_godmode_txNotificationGroup2Color = [0.8, 0.8, 0.8, 1];
+force force acre_sys_godmode_txNotificationGroup3Color = [0.8, 0.8, 0.8, 1];
+force force acre_sys_gui_volumeColorScale = [[1, 1, 0, 0.5], [1, 0.83, 0, 0.5], [1, 0.65, 0, 0.5], [1, 0.44, 0, 0.5], [1, 0, 0, 0.5]];
+force force acre_sys_list_CycleRadiosColor = [0.66, 0.05, 1, 1];
+force force acre_sys_list_DefaultPTTColor = [1, 0.8, 0, 1];
+force force acre_sys_list_HintBackgroundColor = [0, 0, 0, 0.8];
 force force acre_sys_list_HintTextFont = "RobotoCondensed";
-force force acre_sys_list_LanguageColor = [1,0.29,0.16,1];
-force force acre_sys_list_PTT1Color = [1,0.8,0,1];
-force force acre_sys_list_PTT2Color = [1,0.8,0,1];
-force force acre_sys_list_PTT3Color = [1,0.8,0,1];
-force force acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
-force force acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
+force force acre_sys_list_LanguageColor = [1, 0.29, 0.16, 1];
+force force acre_sys_list_PTT1Color = [1, 0.8, 0, 1];
+force force acre_sys_list_PTT2Color = [1, 0.8, 0, 1];
+force force acre_sys_list_PTT3Color = [1, 0.8, 0, 1];
+force force acre_sys_list_SwitchChannelColor = [0.66, 0.05, 1, 1];
+force force acre_sys_list_ToggleHeadsetColor = [0.66, 0.05, 1, 1];
 
 // ACRE2 Zeus
 force force acre_sys_zeus_zeusCanSpectate = true;
@@ -1128,7 +1128,7 @@ ctab_core_useMils = false;
 force force CUP_CheckCfgPatches = false;
 force force CUP_Vehicles_PreventBarrelClip = true;
 
-// CUP Static Weapons
+// CUP Static weapons
 force force CUP_staticWeapons_allowMovement = false;
 force force CUP_staticWeapons_allowRotation = false;
 
@@ -1153,17 +1153,17 @@ force force diwako_dui_font = "RobotoCondensed";
 force force diwako_dui_icon_style = "nato";
 force force diwako_dui_main_hide_dialog = true;
 force force diwako_dui_main_hide_ui_by_default = false;
-force force diwako_dui_main_squadBlue = [0,0,1,1];
-force force diwako_dui_main_squadGreen = [0,1,0,1];
-force force diwako_dui_main_squadMain = [1,1,1,1];
-force force diwako_dui_main_squadRed = [1,0,0,1];
-force force diwako_dui_main_squadYellow = [1,1,0,1];
-force force diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
+force force diwako_dui_main_squadBlue = [0, 0, 1, 1];
+force force diwako_dui_main_squadGreen = [0, 1, 0, 1];
+force force diwako_dui_main_squadMain = [1, 1, 1, 1];
+force force diwako_dui_main_squadRed = [1, 0, 0, 1];
+force force diwako_dui_main_squadYellow = [1, 1, 0, 1];
+force force diwako_dui_main_trackingColor = [0.93, 0.26, 0.93, 1];
 force force diwako_dui_reset_ui_pos = false;
 
 // DUI - Squad Radar - Nametags
-force force diwako_dui_nametags_customRankStyle = "[[""PRIVATE"",""CORPORAL"",""SERGEANT"",""LIEUTENANT"",""CAPTAIN"",""MAJOR"",""COLONEL""],[""Pvt."",""Cpl."",""Sgt."",""Lt."",""Capt."",""Maj."",""Col.""]]";
-diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
+force force diwako_dui_nametags_customRankStyle = "[[""PRIVATE"", ""CORPORAL"", ""SERGEANT"", ""LIEUTENANT"", ""CAPTAIN"", ""MAJOR"", ""COLONEL""], [""Pvt."", ""Cpl."", ""Sgt."", ""Lt."", ""Capt."", ""Maj."", ""Col.""]]";
+diwako_dui_nametags_deadColor = [0.2, 0.2, 0.2, 1];
 force force diwako_dui_nametags_deadRenderDistance = 3.5;
 force force diwako_dui_nametags_drawRank = true;
 force force diwako_dui_nametags_enabled = false;
@@ -1175,11 +1175,11 @@ force force diwako_dui_nametags_fontGroup = "EtelkaMonospacePro";
 force force diwako_dui_nametags_fontGroupNameSize = 8;
 diwako_dui_nametags_fontName = "RobotoCondensedBold";
 force force diwako_dui_nametags_fontNameSize = 10;
-diwako_dui_nametags_groupColor = [1,1,1,1];
+diwako_dui_nametags_groupColor = [1, 1, 1, 1];
 force force diwako_dui_nametags_groupFontShadow = 1;
-diwako_dui_nametags_groupNameOtherGroupColor = [0.6,0.85,0.6,1];
+diwako_dui_nametags_groupNameOtherGroupColor = [0.6, 0.85, 0.6, 1];
 force force diwako_dui_nametags_nameFontShadow = 1;
-diwako_dui_nametags_nameOtherGroupColor = [0.2,1,0,1];
+diwako_dui_nametags_nameOtherGroupColor = [0.2, 1, 0, 1];
 force force diwako_dui_nametags_rankNameStyle = "default";
 force force diwako_dui_nametags_renderDistance = 10;
 force force diwako_dui_nametags_showUnconAsDead = true;
@@ -1191,7 +1191,7 @@ force force diwako_dui_compass_hide_alone_group = true;
 force force diwako_dui_compass_hide_blip_alone_group = true;
 diwako_dui_compass_icon_scale = 1;
 force force diwako_dui_compass_opacity = 1;
-force force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
+force force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa", "\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
 force force diwako_dui_compassRange = 35;
 force force diwako_dui_compassRefreshrate = 0;
 force force diwako_dui_dir_showMildot = false;
@@ -1225,7 +1225,7 @@ force force diwako_dui_radar_namelist_hideWhenLeader = false;
 force force diwako_dui_radar_namelist_vertical_spacing = 0.75;
 force force diwako_dui_radar_occlusion_fade_in_time = 1;
 force force diwako_dui_radar_occlusion_fade_time = 10;
-force force diwako_dui_radar_pointer_color = [1,0.5,0,1];
+force force diwako_dui_radar_pointer_color = [1, 0.5, 0, 1];
 force force diwako_dui_radar_pointer_style = "standard";
 force force diwako_dui_radar_show_cardinal_points = true;
 force force diwako_dui_radar_showSpeaking = true;
@@ -1244,7 +1244,7 @@ force force grad_civs_cars_animalTransportVehicles = "";
 force force grad_civs_cars_automaticVehicleGroupSize = true;
 force force grad_civs_cars_globalSpeedLimit = 100;
 force force grad_civs_cars_townSpeedLimit = 30;
-force force grad_civs_cars_vehicles = "[""CUP_C_S1203_CIV"",  ""CUP_C_S1203_Ambulance_CIV"",  ""CUP_C_Volha_Gray_TKCIV"",  ""CUP_C_Volha_Blue_TKCIV"",  ""CUP_C_Volha_Limo_TKCIV"",  ""CUP_O_Hilux_unarmed_TK_CIV"",  ""CUP_O_Hilux_unarmed_TK_CIV_White"",  ""CUP_O_Hilux_unarmed_TK_CIV_Red"",  ""CUP_C_Ikarus_TKC"",  ""CUP_C_Bus_City_TKCIV"",  ""CUP_C_LR_Transport_CTK"",  ""CUP_C_V3S_Open_TKC"",  ""CUP_C_SUV_TK"",  ""CUP_C_UAZ_Unarmed_TK_CIV"",  ""CUP_C_Ural_Civ_01"",  ""CUP_C_Lada_TK_CIV"",  ""CUP_C_TT650_TK_CIV""]";
+force force grad_civs_cars_vehicles = "[""CUP_C_S1203_CIV"", ""CUP_C_S1203_Ambulance_CIV"", ""CUP_C_Volha_Gray_TKCIV"", ""CUP_C_Volha_Blue_TKCIV"", ""CUP_C_Volha_Limo_TKCIV"", ""CUP_O_Hilux_unarmed_TK_CIV"", ""CUP_O_Hilux_unarmed_TK_CIV_White"", ""CUP_O_Hilux_unarmed_TK_CIV_Red"", ""CUP_C_Ikarus_TKC"", ""CUP_C_Bus_City_TKCIV"", ""CUP_C_LR_Transport_CTK"", ""CUP_C_V3S_Open_TKC"", ""CUP_C_SUV_TK"", ""CUP_C_UAZ_Unarmed_TK_CIV"", ""CUP_C_Ural_Civ_01"", ""CUP_C_Lada_TK_CIV"", ""CUP_C_TT650_TK_CIV""]";
 force force grad_civs_diagnostics_showFps = false;
 force force grad_civs_diagnostics_showInfoLine = false;
 force force grad_civs_diagnostics_showMisc = false;
@@ -1253,7 +1253,7 @@ force force grad_civs_diagnostics_showPinkArrows = false;
 force force grad_civs_diagnostics_showSpawnAttempts = false;
 force force grad_civs_diagnostics_showSpeedLimitsOnMap = false;
 force force grad_civs_gta_enabled = true;
-force force grad_civs_lifecycle_civClasses = "[""CUP_C_TK_Man_04"",  ""CUP_C_TK_Man_04_Jack"",  ""CUP_C_TK_Man_04_Waist"",  ""CUP_C_TK_Man_07"",  ""CUP_C_TK_Man_07_Coat"",  ""CUP_C_TK_Man_07_Waist"",  ""CUP_C_TK_Man_08"",  ""CUP_C_TK_Man_08_Jack"",  ""CUP_C_TK_Man_08_Waist"",  ""CUP_C_TK_Man_05_Coat"",  ""CUP_C_TK_Man_05_Jack"",  ""CUP_C_TK_Man_05_Waist"",  ""CUP_C_TK_Man_06_Coat"",  ""CUP_C_TK_Man_06_Jack"",  ""CUP_C_TK_Man_06_Waist"",  ""CUP_C_TK_Man_02"",  ""CUP_C_TK_Man_02_Jack"",  ""CUP_C_TK_Man_02_Waist"",  ""CUP_C_TK_Man_01_Coat"",  ""CUP_C_TK_Man_01_Jack"",  ""CUP_C_TK_Man_03_Coat"",  ""CUP_C_TK_Man_03_Jack"",  ""CUP_C_TK_Man_03_Waist""]";
+force force grad_civs_lifecycle_civClasses = "[""CUP_C_TK_Man_04"", ""CUP_C_TK_Man_04_Jack"", ""CUP_C_TK_Man_04_Waist"", ""CUP_C_TK_Man_07"", ""CUP_C_TK_Man_07_Coat"", ""CUP_C_TK_Man_07_Waist"", ""CUP_C_TK_Man_08"", ""CUP_C_TK_Man_08_Jack"", ""CUP_C_TK_Man_08_Waist"", ""CUP_C_TK_Man_05_Coat"", ""CUP_C_TK_Man_05_Jack"", ""CUP_C_TK_Man_05_Waist"", ""CUP_C_TK_Man_06_Coat"", ""CUP_C_TK_Man_06_Jack"", ""CUP_C_TK_Man_06_Waist"", ""CUP_C_TK_Man_02"", ""CUP_C_TK_Man_02_Jack"", ""CUP_C_TK_Man_02_Waist"", ""CUP_C_TK_Man_01_Coat"", ""CUP_C_TK_Man_01_Jack"", ""CUP_C_TK_Man_03_Coat"", ""CUP_C_TK_Man_03_Jack"", ""CUP_C_TK_Man_03_Waist""]";
 force force grad_civs_lifecycle_cleanupCorpses = true;
 force force grad_civs_lifecycle_minCivOwnerFps = 30;
 force force grad_civs_lifecycle_minCivUpdateTime = 3;
@@ -1278,7 +1278,7 @@ force force grad_civs_patrol_spawnDistancesOnFoot = "[750, 1000]";
 force force grad_civs_residents_chatTime = 20;
 force force grad_civs_residents_maxCivsResidents = 10;
 force force grad_civs_residents_meetNeighborCooldown = 150;
-force force grad_civs_residents_spawnDistancesResidents = "[500,  501]";
+force force grad_civs_residents_spawnDistancesResidents = "[500, 501]";
 force force grad_civs_transit_maxVehiclesInTransit = 5;
 force force grad_civs_transit_vehicles = "[]";
 force force grad_civs_voyage_maxCivsInVehicles = 5;
@@ -1443,7 +1443,7 @@ force force kat_circulation_blood_draw_limit = 5;
 force force kat_circulation_blood_drawTime_250ml = 25;
 force force kat_circulation_blood_drawTime_500ml = 50;
 force force kat_circulation_bloodGroups = false;
-force force kat_circulation_bloodTypeCustomList = "O,O,A,A,O_N,B,A_N,AB,B_N,AB_N";
+force force kat_circulation_bloodTypeCustomList = "O, O, A, A, O_N, B, A_N, AB, B_N, AB_N";
 force force kat_circulation_bloodTypeRandomWeighted = true;
 force force kat_circulation_bloodTypeSetting = 4;
 kat_circulation_bloodTypeSettingPlayer = "O_N";
@@ -1483,15 +1483,15 @@ force force kat_hypothermia_hypothermiaActive = false;
 
 // KAT - ADV Medical: Misc
 kat_misc_AFAK_Container = 0;
-kat_misc_AFAK_Item_Color = [0.67,0.84,0.9];
+kat_misc_AFAK_Item_Color = [0.67, 0.84, 0.9];
 force force kat_misc_AFAK_RemoveWhenEmpty = true;
-kat_misc_AFAK_Slot_Color = [1,0.96,0.32];
+kat_misc_AFAK_Slot_Color = [1, 0.96, 0.32];
 force force kat_misc_AFAKFirstSlotItem = "[['ACE_tourniquet', 6], ['ACE_splint', 4]]";
 force force kat_misc_AFAKSecondSlotItem = "[['ACE_packingBandage', 25], ['ACE_quikclot', 15], ['ACE_elasticBandage', 20], ['ACE_suture', 55], ['kat_chestSeal', 6]]";
 force force kat_misc_AFAKThirdSlotItem = "[['kat_Painkiller', 2], ['kat_Penthrox', 2]]";
 force force kat_misc_AFAKFourthSlotItem = "[['kat_Carbonate', 1], ['ACE_epinephrine', 5], ['kat_Caffeine', 1], ['ACE_salineIV_250', 2], ['kat_IV_16', 5]]";
 force force kat_misc_AFAKFifthSlotItem = "[['kat_larynx', 6]]";
-force force kat_misc_AFAKSixthSlotItem = "[['kat_pocketBVM', 1], ['kat_Pulseoximeter', 1], ['ACE_surgicalKit', 1], ['kat_suction',1]]";
+force force kat_misc_AFAKSixthSlotItem = "[['kat_pocketBVM', 1], ['kat_Pulseoximeter', 1], ['ACE_surgicalKit', 1], ['kat_suction', 1]]";
 force force kat_misc_allowSharedVehicleEquipment = 1;
 kat_misc_armbandSlingLeftArm = "[0.2, -0.39, -0.2]";
 kat_misc_armbandSlingLeftArmRotation = "[240, 33, 26]";
@@ -1504,18 +1504,18 @@ kat_misc_armbandSlingRightLegRotation = "[-30, -5, 38]";
 force force kat_misc_enable = true;
 force force kat_misc_enableStitchFullBody = false;
 kat_misc_IFAK_Container = 0;
-kat_misc_IFAK_Item_Color = [0.67,0.84,0.9];
+kat_misc_IFAK_Item_Color = [0.67, 0.84, 0.9];
 force force kat_misc_IFAK_RemoveWhenEmpty = true;
-kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
+kat_misc_IFAK_Slot_Color = [1, 0.3, 0.3];
 force force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 4], ['ACE_splint', 4]]";
 force force kat_misc_IFAKSecondSlotItem = "[['ACE_packingBandage', 10], ['ACE_elasticBandage', 10], ['ACE_quikclot', 5]]";
-force force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 2],['kat_Caffeine', 1]]";
+force force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 2], ['kat_Caffeine', 1]]";
 force force kat_misc_IFAKFourthSlotItem = "[['kat_chestSeal', 2], ['kat_Pulseoximeter', 1]]";
 force force kat_misc_incompatibilityWarning = true;
 kat_misc_MFAK_Container = 0;
-kat_misc_MFAK_Item_Color = [0.67,0.84,0.9];
+kat_misc_MFAK_Item_Color = [0.67, 0.84, 0.9];
 force force kat_misc_MFAK_RemoveWhenEmpty = true;
-kat_misc_MFAK_Slot_Color = [0.56,0.93,0.56];
+kat_misc_MFAK_Slot_Color = [0.56, 0.93, 0.56];
 force force kat_misc_MFAKFirstSlotItem = "[['ACE_tourniquet', 6], ['ACE_splint', 6]]";
 force force kat_misc_MFAKSecondSlotItem = "[['ACE_packingBandage', 25], ['ACE_quikclot', 15], ['ACE_elasticBandage', 25], ['ACE_suture', 55]]";
 force force kat_misc_MFAKThirdSlotItem = "[['kat_Painkiller', 1], ['kat_Penthrox', 2]]";
@@ -1706,7 +1706,7 @@ force force SSS_setting_slingLoadSearchRadius = 100;
 force force SSS_setting_slingLoadWhitelist = "";
 force force SSS_setting_useChatNotifications = false;
 
-// Training Magazines
+// Training magazines
 force force training_mag_dynamic_unconsciousTime = true;
 
 // Zeus Enhanced
@@ -1799,7 +1799,7 @@ force force zen_attributes_enableWaypointSpeed = true;
 force force zen_attributes_enableWaypointTimeout = true;
 force force zen_attributes_enableWaypointType = true;
 
-// Zeus Enhanced - Faction Filter
+// Zeus Enhanced - faction Filter
 force force zen_faction_filter_0_CUP_O_ChDKZ = true;
 force force zen_faction_filter_0_CUP_O_RU = true;
 force force zen_faction_filter_0_CUP_O_RUS_M = true;
