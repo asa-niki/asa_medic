@@ -927,7 +927,7 @@ force force ace_arsenal_loadoutsSaveVoice = true;
 // ACE-Medicsystem
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_ai_requireItems = 0;
-force force ace_medical_AIDamageThreshold = 0.5;
+force force ace_medical_AIDamageThreshold = 0.3;
 force force ace_medical_bleedingCoefficient = 0.2;
 force force ace_medical_blood_bloodLifetime = 60;
 force force ace_medical_blood_enabledFor = 1;
