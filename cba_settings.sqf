@@ -4,7 +4,7 @@
 	
 	Zustaendigkeit OCTI / NIKI
 	
-	Letzte Aktualisierung Github - 05.01.2025 - 13:43
+	Letzte Aktualisierung Github - 14.01.2025 - 15:01
 	Letzte Aktualisierung Server - 03.01.2025 - 04:11
 	Chancelog im Discord
 	
