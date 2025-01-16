@@ -4,7 +4,7 @@
 	
 	Zustaendigkeit OCTI / NIKI
 	
-	Letzte Aktualisierung Github - 14.01.2025 - 15:01
+	Letzte Aktualisierung Github - 16.01.2025 - 21:53
 	Letzte Aktualisierung Server - 03.01.2025 - 04:11
 	Chancelog im Discord
 	
@@ -944,8 +944,8 @@ force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.5;
 force force ace_medical_painUnconsciousThreshold = 0.7;
-force force ace_medical_playerDamageThreshold = 1;
-force force ace_medical_spontaneousWakeUpChance = 0.25;
+force force ace_medical_playerDamageThreshold = 1.1;
+force force ace_medical_spontaneousWakeUpChance = 0.4;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.5;
 force force ace_medical_statemachine_AIUnconsciousness = false;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
@@ -1321,20 +1321,20 @@ force force kat_airway_Suction_time = 7.39517;
 // KAT - ADV Medical: Breathing
 force force kat_breathing_advPtxChance = 35;
 force force kat_breathing_advPtxEnable = true;
-force force kat_breathing_arrestPneumothorax_interval = 30;
+force force kat_breathing_arrestPneumothorax_interval = 45;
 force force kat_breathing_availOxyMask = "'G_AirPurifyingRespirator_01_F'";
 force force kat_breathing_BVMOxygen_Multiplier = 7.5;
 force force kat_breathing_clearChestSealAfterTreatment = false;
 force force kat_breathing_deepPenetratingInjuryChance = 30;
-force force kat_breathing_deterioratingPneumothorax_chance = 45;
-force force kat_breathing_deterioratingPneumothorax_interval = 30;
+force force kat_breathing_deterioratingPneumothorax_chance = 40;
+force force kat_breathing_deterioratingPneumothorax_interval = 45;
 force force kat_breathing_enable = true;
 force force kat_breathing_enable_selfChestseal = 1;
 force force kat_breathing_enableCheckBreathing = true;
 force force kat_breathing_Etco2_Enabled = true;
 force force kat_breathing_Etco2_Units = 0;
 force force kat_breathing_HPTXBleedAmount = 0.0990013;
-force force kat_breathing_hptxChance = 40;
+force force kat_breathing_hptxChance = 35;
 force force kat_breathing_inspectChest_enable = 2;
 force force kat_breathing_inspectChest_medLvl = 1;
 force force kat_breathing_inspectChest_time = 4;
@@ -1364,8 +1364,8 @@ force force kat_breathing_SpO2_cardiacActive = true;
 force force kat_breathing_SpO2_cardiacValue = 50;
 force force kat_breathing_SpO2_dieActive = true;
 force force kat_breathing_SpO2_dieValue = 30;
-force force kat_breathing_SpO2_MultiplyNegative = 1.5;
-force force kat_breathing_SpO2_MultiplyPositive = 1.5;
+force force kat_breathing_SpO2_MultiplyNegative = 1;
+force force kat_breathing_SpO2_MultiplyPositive = 1;
 force force kat_breathing_SpO2_perfusion = true;
 force force kat_breathing_SpO2_PerfusionMultiplier = 1.5;
 force force kat_breathing_SpO2_unconscious = 75;
@@ -1387,9 +1387,9 @@ force froce kat_chemical_tearGasDropChance = 0;
 force force kat_circulation_abgEnable = false;
 force force kat_circulation_AdvRhythm = true;
 force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 40;
-force force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 1.5;
+force force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 2.5;
 force force kat_circulation_AdvRhythm_canDeteriorate = true;
-force force kat_circulation_AdvRhythm_CPR_ROSC_Chance = 10;
+force force kat_circulation_AdvRhythm_CPR_ROSC_Chance = 15;
 force force kat_circulation_AdvRhythm_deteriorateAfterTreatment = true;
 force force kat_circulation_AdvRhythm_deteriorateTimeMax = 900;
 force force kat_circulation_AdvRhythm_deteriorateTimeWeight = 180;
@@ -1401,7 +1401,7 @@ force force kat_circulation_AED_duringCpr = true;
 force force kat_circulation_AED_MaxChance = 55;
 force force kat_circulation_AED_MinChance = 45;
 force force kat_circulation_AED_X_MaxChance = 75;
-force force kat_circulation_AED_X_MinChance = 45;
+force force kat_circulation_AED_X_MinChance = 50;
 force force kat_circulation_AED_X_Monitor_SpO2Warning = 85;
 force force kat_circulation_AED_X_VitalsMonitor_BloodPressureInterval = 0;
 force force kat_circulation_AED_X_VitalsMonitor_BloodPressureInterval_Time = 30;
@@ -1503,7 +1503,7 @@ force force kat_pharma_allowStackScript_EACA = true;
 force force kat_pharma_allowStackScript_TXA = true;
 force force kat_pharma_bandageCycleTime_EACA = 3;
 force force kat_pharma_bandageCycleTime_TXA = 3;
-force force kat_pharma_blockChance = 25;
+force force kat_pharma_blockChance = 20;
 force force kat_pharma_carbonateChance = 80;
 force force kat_pharma_CheckCoag_Location = 0;
 force force kat_pharma_CheckCoag_MedLevel = 1;
