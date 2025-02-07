@@ -4,8 +4,8 @@
 	
 	Zustaendigkeit OCTI / NIKI
 	
-	Letzte Aktualisierung Github - 16.01.2025 - 21:53
-	Letzte Aktualisierung Server - 03.01.2025 - 04:11
+	Letzte Aktualisierung Github - 28.01.2025 - 
+	Letzte Aktualisierung Server - 28.01.2025 - 04:11
 	Chancelog im Discord
 	
 	Sperrt alle Aenderungen auf Server fuer CBA Settings. Aenderungen die auf dem Server passieren, sind nur Temporaer.
