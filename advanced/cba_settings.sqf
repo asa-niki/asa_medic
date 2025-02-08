@@ -4,7 +4,7 @@
 	
 	Zustaendigkeit OCTI / NIKI
 	
-	Letzte Aktualisierung Github - 28.01.2025 - 
+	Letzte Aktualisierung Github - 08.02.2025 - 10:17
 	Letzte Aktualisierung Server - 28.01.2025 - 04:11
 	Chancelog im Discord
 	
@@ -792,7 +792,7 @@ force force ace_medical_treatment_maxLitterObjects = 50;
 force force ace_medical_treatment_medicAdenosine = 1;
 force force ace_medical_treatment_medicEpinephrine = 0;
 force force ace_medical_treatment_medicIV = 1;
-force force ace_medical_treatment_medicMorphine = 1;
+force force ace_medical_treatment_medicMorphine = 0;
 force force ace_medical_treatment_medicPAK = 2;
 force froce ace_medical_treatment_medicSplint = 0;
 force force ace_medical_treatment_medicSurgicalKit = 1;
