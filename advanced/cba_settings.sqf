@@ -4,7 +4,7 @@
 	
 	Zustaendigkeit OCTI / NIKI
 	
-	Letzte Aktualisierung Github - 08.02.2025 - 10:17
+	Letzte Aktualisierung Github - 09.02.2025 - 12:55
 	Letzte Aktualisierung Server - 28.01.2025 - 04:11
 	Chancelog im Discord
 	
@@ -1004,7 +1004,7 @@ force force ace_medical_treatment_medicEpinephrine = 0;
 force force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicMorphine = 0;
 force force ace_medical_treatment_medicPAK = 2;
-force ace_medical_treatment_medicSplint = 0;
+force force ace_medical_treatment_medicSplint = 0;
 force force ace_medical_treatment_medicSurgicalKit = 1;
 force force ace_medical_treatment_numericalPulse = 1;
 force force ace_medical_treatment_timeCoefficientPAK = 1.5;
@@ -1413,7 +1413,7 @@ force force kat_chemical_tearGasDropChance = 0;
 // KAT - ADV Medical: Circulation
 force force kat_circulation_abgEnable = false;
 force force kat_circulation_AdvRhythm = true;
-force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 40;
+force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 50;
 force force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 2.5;
 force force kat_circulation_AdvRhythm_canDeteriorate = true;
 force force kat_circulation_AdvRhythm_CPR_ROSC_Chance = 15;

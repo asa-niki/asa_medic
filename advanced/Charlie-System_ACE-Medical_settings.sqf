@@ -1,9 +1,9 @@
 /*
 	
-	Advanced ACE Medical Settings
+	San - Charlie System | ACE Medical Settings
 
     Responsibility: Octavian
-    Last update on GitHub - 09/02/2025 // 11:23 by Octavian    
+    Last update on GitHub - 09/02/2025 // 12:55 by Octavian    
     Changelog via Discord	
 */
 
