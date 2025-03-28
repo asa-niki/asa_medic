@@ -3,7 +3,7 @@
 	San - Charlie System | KAT Medical Settings
 
     Responsibility: Octavian
-    Last update on GitHub - 09/02/2025 // 12:55 by Octavian    
+        Last update on GitHub - 28/03/2025 // 23:31 by NIKI
     Changelog via Discord
 */
 
@@ -36,7 +36,7 @@ force force kat_airway_Suction_reuse = true;
 force force kat_airway_Suction_time = 7.39517;
 
 // KAT - ADV Medical: Breathing
-force force kat_breathing_advPtxChance = 40;
+force force kat_breathing_advPtxChance = 35;
 force force kat_breathing_advPtxEnable = true;
 force force kat_breathing_arrestPneumothorax_interval = 45;
 force force kat_breathing_availOxyHelmet = "'H_PilotHelmetFighter_B', 'H_PilotHelmetFighter_O', 'H_PilotHelmetFighter_I', 'H_PilotHelmetFighter_I_E'";
@@ -81,7 +81,7 @@ force force kat_breathing_slightValue = 90;
 force force kat_breathing_SpO2_cardiacActive = true;
 force force kat_breathing_SpO2_cardiacValue = 50;
 force force kat_breathing_SpO2_dieActive = true;
-force force kat_breathing_SpO2_dieValue = 20;
+force force kat_breathing_SpO2_dieValue = 30;
 force force kat_breathing_SpO2_MultiplyNegative = 1;
 force force kat_breathing_SpO2_MultiplyPositive = 1;
 force force kat_breathing_SpO2_perfusion = true;
@@ -98,14 +98,14 @@ force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F', 'kat_m
 force force kat_chemical_gasmask_durability = 900;
 kat_chemical_gasMaskSoundVolume = 1;
 force force kat_chemical_infectionTime = 10;
-force kat_chemical_maskStaminaLoss = false;
+force force kat_chemical_maskStaminaLoss = true;
 force force kat_chemical_showPoisoning = true;
 force force kat_chemical_tearGasDropChance = 0;
 
 // KAT - ADV Medical: Circulation
 force force kat_circulation_abgEnable = false;
 force force kat_circulation_AdvRhythm = true;
-force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 50;
+force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 40;
 force force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 2.5;
 force force kat_circulation_AdvRhythm_canDeteriorate = true;
 force force kat_circulation_AdvRhythm_CPR_ROSC_Chance = 15;
@@ -116,7 +116,7 @@ force force kat_circulation_AdvRhythm_Hardcore_Enable = false;
 force force kat_circulation_AdvRhythm_hardcoreDeteriorationChance = 10;
 force force kat_circulation_AdvRhythm_HTHold = false;
 force force kat_circulation_AdvRhythm_PEAChance = 50;
-force force kat_circulation_AdvRhythm_VTChance = 35;
+force force kat_circulation_AdvRhythm_VTChance = 50;
 force force kat_circulation_AED_duringCpr = true;
 force force kat_circulation_AED_MaxChance = 55;
 force force kat_circulation_AED_MinChance = 45;
@@ -153,10 +153,15 @@ force force kat_circulation_deterioratingTamponade_interval = 60;
 force force kat_circulation_enable = true;
 force force kat_circulation_enable_CPR_Chances = true;
 force force kat_circulation_enable_selfBloodDraw = 1;
+force force kat_circulation_hardcoreDiagnose = false;
 force force kat_circulation_medLvl_AED = 1;
 force force kat_circulation_medLvl_AED_Station_Interact = 1;
 force force kat_circulation_medLvl_AED_X = 2;
+force force kat_circulation_medLvl_BPCuff = 0;
+force force kat_circulation_medLvl_StethHR = 0;
 force force kat_circulation_tamponadeChance = 10;
+force force kat_circulation_treatmentTime_BPCuff = 12;
+force force kat_circulation_treatmentTime_StethHR = 8;
 force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: Feedback
@@ -223,7 +228,7 @@ force force kat_pharma_allowStackScript_EACA = true;
 force force kat_pharma_allowStackScript_TXA = true;
 force force kat_pharma_bandageCycleTime_EACA = 3;
 force force kat_pharma_bandageCycleTime_TXA = 3;
-force force kat_pharma_blockChance = 25;
+force force kat_pharma_blockChance = 20;
 force force kat_pharma_carbonateChance = 80;
 force force kat_pharma_CheckCoag_Location = 0;
 force force kat_pharma_CheckCoag_MedLevel = 1;
@@ -261,7 +266,9 @@ force force kat_pharma_medLvl_Amiodarone = 1;
 force force kat_pharma_medLvl_ApplyIO = 2;
 force force kat_pharma_medLvl_ApplyIV = 1;
 force force kat_pharma_medLvl_Atropine = 1;
+force force kat_pharma_medLvl_Caffeine = 0;
 force force kat_pharma_medLvl_Carbonate = 0;
+force force kat_pharma_medLvl_CWMP = 0;
 force force kat_pharma_medLvl_EACA = 2;
 force force kat_pharma_medLvl_EpinephrineIV = 1;
 force force kat_pharma_medLvl_Etomidate = 2;
@@ -290,7 +297,9 @@ force force kat_pharma_treatmentTime_Amiodarone = 3;
 force force kat_pharma_treatmentTime_ApplyIO = 4;
 force force kat_pharma_treatmentTime_ApplyIV = 4;
 force force kat_pharma_treatmentTime_Atropine = 3;
+force force kat_pharma_treatmentTime_Caffeine = 7;
 force force kat_pharma_treatmentTime_Carbonate = 3;
+force force kat_pharma_treatmentTime_CWMP = 7;
 force force kat_pharma_treatmentTime_EACA = 3;
 force force kat_pharma_treatmentTime_EpinephrineIV = 3;
 force force kat_pharma_treatmentTime_Etomidate = 2;
@@ -350,3 +359,4 @@ force force kat_vitals_enableSimpleMedical = true;
 force force kat_watch_altitudeUnit = 0;
 force force kat_watch_pressureUnit = 0;
 force force kat_watch_temperatureUnit = 0;
+force force kat_watch_watchInaccuracy = false;

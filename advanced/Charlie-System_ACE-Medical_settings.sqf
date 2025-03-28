@@ -3,11 +3,11 @@
 	San - Charlie System | ACE Medical Settings
 
     Responsibility: Octavian
-    Last update on GitHub - 09/02/2025 // 12:55 by Octavian    
+    Last update on GitHub - 28/03/2025 // 23:31 by NIKI
     Changelog via Discord	
 */
 
-// ACE Medical
+// ACE-Medicsystem
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_ai_requireItems = 0;
 force force ace_medical_AIDamageThreshold = 0.3;
@@ -39,7 +39,62 @@ force force ace_medical_statemachine_fatalInjuriesPlayer = 2;
 force force ace_medical_useLimbDamage = 0;
 force force ace_medical_vitals_simulateSpO2 = true;
 
-// ACE Medical Interface
+// ACE-Medicsystem Behandlung
+force force ace_medical_treatment_advancedBandages = 2;
+force force ace_medical_treatment_advancedDiagnose = 1;
+force force ace_medical_treatment_advancedMedication = true;
+force force ace_medical_treatment_allowBodyBagUnconscious = false;
+force force ace_medical_treatment_allowGraveDigging = 1;
+force force ace_medical_treatment_allowLitterCreation = true;
+force force ace_medical_treatment_allowSelfIV = 1;
+force force ace_medical_treatment_allowSelfPAK = 1;
+force force ace_medical_treatment_allowSelfStitch = 1;
+force force ace_medical_treatment_allowSharedEquipment = 0;
+force force ace_medical_treatment_bandageEffectiveness = 1;
+force force ace_medical_treatment_bandageRollover = true;
+force force ace_medical_treatment_clearTrauma = 1;
+force force ace_medical_treatment_consumePAK = 0;
+force force ace_medical_treatment_consumeSurgicalKit = 2;
+force force ace_medical_treatment_convertItems = 0;
+force force ace_medical_treatment_cprSuccessChanceMax = 0.5;
+force force ace_medical_treatment_cprSuccessChanceMin = 0.5;
+force force ace_medical_treatment_graveDiggingMarker = true;
+force force ace_medical_treatment_holsterRequired = 0;
+force force ace_medical_treatment_litterCleanupDelay = 50;
+force force ace_medical_treatment_locationAdenosine = 0;
+force force ace_medical_treatment_locationEpinephrine = 0;
+force force ace_medical_treatment_locationIV = 0;
+force force ace_medical_treatment_locationMorphine = 0;
+force force ace_medical_treatment_locationPAK = 0;
+force force ace_medical_treatment_locationsBoostTraining = true;
+force force ace_medical_treatment_locationSplint = 0;
+force force ace_medical_treatment_locationSurgicalKit = 0;
+force force ace_medical_treatment_maxLitterObjects = 50;
+force force ace_medical_treatment_medicAdenosine = 1;
+force force ace_medical_treatment_medicEpinephrine = 0;
+force force ace_medical_treatment_medicIV = 1;
+force force ace_medical_treatment_medicMorphine = 0;
+force force ace_medical_treatment_medicPAK = 2;
+force force ace_medical_treatment_medicSplint = 0;
+force force ace_medical_treatment_medicSurgicalKit = 1;
+force force ace_medical_treatment_numericalPulse = 1;
+force force ace_medical_treatment_timeCoefficientPAK = 1.5;
+force force ace_medical_treatment_treatmentTimeAutoinjector = 3;
+force force ace_medical_treatment_treatmentTimeBodyBag = 15;
+force force ace_medical_treatment_treatmentTimeCoeffZeus = 1;
+force force ace_medical_treatment_treatmentTimeCPR = 15;
+force force ace_medical_treatment_treatmentTimeGrave = 10;
+force force ace_medical_treatment_treatmentTimeIV = 12;
+force force ace_medical_treatment_treatmentTimeSplint = 7;
+force force ace_medical_treatment_treatmentTimeTourniquet = 3;
+force force ace_medical_treatment_treatmentTimeTrainedAutoinjector = 5;
+force force ace_medical_treatment_treatmentTimeTrainedIV = 12;
+force force ace_medical_treatment_treatmentTimeTrainedSplint = 7;
+force force ace_medical_treatment_treatmentTimeTrainedTourniquet = 7;
+force force ace_medical_treatment_woundReopenChance = 0.9;
+force force ace_medical_treatment_woundStitchTime = 6;
+
+// ACE-Medicsystem Interface
 force force ace_medical_feedback_bloodVolumeEffectType = 0;
 force force ace_medical_feedback_enableHUDIndicators = true;
 force force ace_medical_feedback_painEffectType = 2;
@@ -77,54 +132,3 @@ force force ace_medical_gui_showBleeding = 2;
 force force ace_medical_gui_showBloodlossEntry = true;
 force force ace_medical_gui_showDamageEntry = true;
 force force ace_medical_gui_tourniquetWarning = true;
-
-// ACE Medical Treatment
-force force ace_medical_treatment_advancedBandages = 2;
-force force ace_medical_treatment_advancedDiagnose = 1;
-force force ace_medical_treatment_advancedMedication = true;
-force force ace_medical_treatment_allowBodyBagUnconscious = false;
-force force ace_medical_treatment_allowGraveDigging = 1;
-force force ace_medical_treatment_allowLitterCreation = true;
-force force ace_medical_treatment_allowSelfIV = 1;
-force force ace_medical_treatment_allowSelfPAK = 1;
-force force ace_medical_treatment_allowSelfStitch = 1;
-force force ace_medical_treatment_allowSharedEquipment = 0;
-force force ace_medical_treatment_bandageEffectiveness = 1;
-force force ace_medical_treatment_bandageRollover = true;
-force force ace_medical_treatment_clearTrauma = 1;
-force force ace_medical_treatment_consumePAK = 0;
-force force ace_medical_treatment_consumeSurgicalKit = 2;
-force force ace_medical_treatment_convertItems = 0;
-force force ace_medical_treatment_cprSuccessChanceMax = 0.5;
-force force ace_medical_treatment_cprSuccessChanceMin = 0.5;
-force force ace_medical_treatment_graveDiggingMarker = true;
-force force ace_medical_treatment_holsterRequired = 0;
-force force ace_medical_treatment_litterCleanupDelay = 50;
-force force ace_medical_treatment_locationAdenosine = 0;
-force force ace_medical_treatment_locationEpinephrine = 0;
-force force ace_medical_treatment_locationIV = 0;
-force force ace_medical_treatment_locationMorphine = 0;
-force force ace_medical_treatment_locationPAK = 0;
-force force ace_medical_treatment_locationsBoostTraining = true;
-force force ace_medical_treatment_locationSplint = 0;
-force force ace_medical_treatment_locationSurgicalKit = 0;
-force force ace_medical_treatment_maxLitterObjects = 50;
-force force ace_medical_treatment_medicAdenosine = 1;
-force force ace_medical_treatment_medicEpinephrine = 0;
-force force ace_medical_treatment_medicIV = 1;
-force force ace_medical_treatment_medicMorphine = 0;
-force force ace_medical_treatment_medicPAK = 2;
-force ace_medical_treatment_medicSplint = 0;
-force force ace_medical_treatment_medicSurgicalKit = 1;
-force force ace_medical_treatment_numericalPulse = 1;
-force force ace_medical_treatment_timeCoefficientPAK = 1.5;
-force force ace_medical_treatment_treatmentTimeAutoinjector = 3;
-force force ace_medical_treatment_treatmentTimeBodyBag = 15;
-force force ace_medical_treatment_treatmentTimeCoeffZeus = 1;
-force force ace_medical_treatment_treatmentTimeCPR = 15;
-force force ace_medical_treatment_treatmentTimeGrave = 10;
-force force ace_medical_treatment_treatmentTimeIV = 12;
-force force ace_medical_treatment_treatmentTimeSplint = 7;
-force force ace_medical_treatment_treatmentTimeTourniquet = 3;
-force force ace_medical_treatment_woundReopenChance = 0.9;
-force force ace_medical_treatment_woundStitchTime = 6;
