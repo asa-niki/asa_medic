@@ -1,9 +1,9 @@
 	/*
 	CBA Einstellungen
 
-    Responsibility: Octavian
-    Last update on GitHub - 28/03/2025 // 23:31 by NIKI
-    Changelog via Discord	
+    Responsibility: @asa-niki
+    Last update on GitHub - 09/04/2026 // 19:34 by NIKI
+
 	*/
 // A3TI
 force force A3TI_ACE_JAVELIN = false;
